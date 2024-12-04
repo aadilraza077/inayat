@@ -1,7 +1,7 @@
 // Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Styles/Home.css';
+import '../styles/Home.css';
 
 function Home() {
     const events = [

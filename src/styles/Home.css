@@ -26,6 +26,7 @@
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
     animation: fadeInUp 1s ease-out;
+    color: white;
 }
 
 .hero p {
@@ -71,7 +72,7 @@
 
 .learn-btn:hover {
     background-color: white;
-    color: white;
+    color: #020509;
 }
 
 /* Impact Section */
