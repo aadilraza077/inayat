@@ -34,8 +34,7 @@ function Home() {
     const impactStats = [
         { number: "5000+", label: "Lives Impacted" },
         { number: "50+", label: "Active Projects" },
-        { number: "100+", label: "Volunteers" },
-        { number: "$1M+", label: "Funds Raised" }
+        { number: "100+", label: "Volunteers" }
     ];
 
     return (

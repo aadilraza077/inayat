@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css';
-
+import { Link } from 'react-router-dom';
 function About() {
     return (
         <section className="about-section">
@@ -12,7 +12,7 @@ function About() {
 
                 <div className="about-content">
                     <div className="about-image">
-                        <img src="/api/placeholder/600/400" alt="Charity work in action" />
+                        <img src="src/assets/aboutimg.jpg" alt="Charity work in action" />
                     </div>
 
                     <div className="about-text">
@@ -37,8 +37,8 @@ function About() {
                         </div>
 
                         <div className="about-cta">
-                            <button className="donate-button">Join Our Cause</button>
-                        </div>
+                          <Link to="/contact">  <button className="donate-button" >Join Our Cause</button> </Link>
+                    </div>
                     </div>
                 </div>
             </div>

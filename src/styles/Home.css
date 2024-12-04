@@ -6,8 +6,7 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('/api/placeholder/1920/1080');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/src/assets/homepic.jpg');
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -72,7 +71,7 @@
 
 .learn-btn:hover {
     background-color: white;
-    color: #2c5282;
+    color: white;
 }
 
 /* Impact Section */
