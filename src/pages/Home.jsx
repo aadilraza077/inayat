@@ -2,14 +2,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
-
 function Home() {
     const events = [
         {
             id: 1,
             title: "Annual Education Drive",
             date: "December 15, 2024",
-            image: "public/assets/event1.jpg",
+            image: "inayat/event1.jpg",
             description: "Providing educational materials and support to underprivileged students.",
             location: "City Community Center"
         },
@@ -17,7 +16,7 @@ function Home() {
             id: 2,
             title: "Healthcare Camp",
             date: "January 10, 2025",
-            image: "../assets/event2.jpg",
+            image: "inayat/event2.jpg",
             description: "Free medical checkups and healthcare awareness program.",
             location: "Rural Health Center"
         },
@@ -25,7 +24,7 @@ function Home() {
             id: 3,
             title: "Food Distribution Drive",
             date: "January 20, 2025",
-            image: "public/assets/event3.jpg",
+            image: "inayat/event3.jpg",
             description: "Distributing food packages to families in need.",
             location: "Multiple Locations"
         }
