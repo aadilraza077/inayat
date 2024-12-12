@@ -89,16 +89,19 @@
 }
 
 .impact-stats {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-items: center;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4, 1fr);*/
+    /*gap: 2rem;*/
+    /*max-width: 1200px;*/
+    /*margin: 0 auto;*/
+
 }
 
 .stat-box {
     text-align: center;
     padding: 2rem;
+    width: 18rem;
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
