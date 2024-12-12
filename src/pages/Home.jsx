@@ -1,5 +1,5 @@
 // Home.jsx
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Home.css';
 function Home() {
@@ -35,6 +35,15 @@ function Home() {
         { number: "50+", label: "Active Projects" },
         { number: "100+", label: "Volunteers" }
     ];
+
+    useEffect(() => {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            if (img.src.includes('inayat/inayat')) {
+                img.src = img.src.replace('inayat/inayat', 'inayat');
+            }
+        });
+    }, []);
 
     return (
         <div className="home">
